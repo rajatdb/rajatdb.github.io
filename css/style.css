@@ -622,7 +622,7 @@ body.loaded #preloader{
   height: 100%;
   background-color: #212121;
   border-radius: 20px;
-  box-shadow: 2px 2px 5px rgba(17, 17, 17, 0.35);
+  box-shadow: 2px 2px 5px rgba(170, 170, 170, 2.35);
   transition: transform .35s ease-out;
   transform: translate(var(--x), var(--y)) scale(0.35) rotate(var(--angle));
   will-change: transform;
