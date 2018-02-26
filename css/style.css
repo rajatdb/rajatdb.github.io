@@ -27,7 +27,6 @@
   11. Useful Classes ( Such as : Margin, Padding, colors  "This classes will be helpful for you during designing/development time.")
   12. UiPasta Credit
  
-
 */
 
 
@@ -237,7 +236,6 @@ fieldset {
 }
 
 
-
 /* Preloader */
 
 #preloader {
@@ -329,7 +327,6 @@ body.loaded #preloader{
 }
 
 
-
 /* Home Section and Navigation Menu */
 
 .home-section {
@@ -343,6 +340,8 @@ body.loaded #preloader{
     background-size: cover;
     z-index: 1;
 }
+
+
 
 .home-section-background:after {
     position: absolute;
@@ -563,6 +562,10 @@ body.loaded #preloader{
 
 .contact-us-detail a:hover {
 	color: #fff;
+}
+
+.glyphicon-calendar {
+  left: -13px;
 }
 
 
@@ -1308,7 +1311,6 @@ padding: 30px
 .bg-color-6 {
 	background-color: #08a6f3;
 }
-
 
 
 /* UiPasta Credit */
