@@ -33,6 +33,16 @@
 
 /* Global Style */
 
+
+
+html,body{ 
+	height:100%;
+}
+
+html{
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
 body {
     font-size: 16px;
     font-weight: 400;
@@ -42,18 +52,6 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-html,
-body {
-    height: 100%
-}
-
-.parallax {
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 500px;
-}
 
 ::selection {
     background-color: #24b662;
@@ -327,6 +325,7 @@ body.loaded #preloader{
 }
 
 
+
 /* Home Section and Navigation Menu */
 
 .home-section {
@@ -485,6 +484,9 @@ body.loaded #preloader{
     color: #fff;
 }
 
+
+
+
 /* Profile Photo */
 #profilePic {
   height: 20%;
@@ -501,6 +503,13 @@ body.loaded #preloader{
 
 
 /* About Me */
+.parallax {
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+}
 
 .arc {
   background-image: url("../images/space.jpg");
@@ -835,6 +844,18 @@ body.loaded #preloader{
     color: #ffffff;
 }
 
+.footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 44px;
+	height: 44px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
 
 
 /* Responsive */
