@@ -498,7 +498,7 @@ body.loaded #preloader{
   margin: 0;
   -webkit-box-shadow: 0px 0px 0px 20px rgba(100, 100, 100, 100);
   -moz-box-shadow: 0px 0px 0px 20px rgba(200, 200, 200, 200);
-  box-shadow: 0px 0px 0px 20px rgba(1, 1, 1, 1);
+  box-shadow: 0px 0px 0px 20px rgba(33,33,33,0);
 }
 
 
@@ -517,12 +517,12 @@ body.loaded #preloader{
 
 /* Portfolio */
 
-
 #bio, .portfolio {
-  background-color: #000000;
+  background-image: url("../images/bg/texture.jpg");
   color: #393327;
-  padding: 15px 10%;
+  padding: 45px 10%;
   height: auto;
+  width: auto
 }
 
 #bio {
@@ -542,7 +542,7 @@ body.loaded #preloader{
 /* Contact Us */
 
 .contact-us {
-	background-color: #000000;
+	background-image: url("../images/bg/texture.jpg");
 }
 
 .contact-us-detail {
@@ -578,10 +578,11 @@ body.loaded #preloader{
 }
 
 
+
 /* Portfolio */
 
 .portfolio {
-	background-color: #000000;
+	background-image: url("../images/bg/texture.jpg");
 }
 .portfolio-detail {
 }
@@ -632,7 +633,7 @@ body.loaded #preloader{
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: #212121;
+  background-image: url("../images/bg/texture.jpg");
   border-radius: 20px;
   box-shadow: 2px 2px 5px rgba(170, 170, 170, 2.35);
   transition: transform .35s ease-out;
@@ -743,13 +744,13 @@ body.loaded #preloader{
 
 .social-icon li a {
   display: block;
-  width: 60px;
-  height: 60px;
+  width: 55px;
+  height: 55px;
   line-height: 60px;
   color: #fff;
   text-align: center;
   border: 0 none;
-  border-radius: 4px;
+  border-radius: 5px;
   font-size: 30px;
   box-shadow: 0px 1px 2px 0px rgba(90, 101, 105, 1.15);
   transition: all 0.3s ease-in-out;
@@ -764,7 +765,6 @@ body.loaded #preloader{
 }
 
 .github {
-   
    background-color: #000;
 }
 
@@ -831,8 +831,8 @@ body.loaded #preloader{
 /* Footer */
 
 .footer-section {
-    background: #000;
-    padding: 80px 0px;
+    background-image: url("../images/bg/texture.jpg");
+    padding: 10px 0px;
     color: #f8f8f8;
 }
 
@@ -1019,11 +1019,6 @@ body.loaded #preloader{
 }
 
 
-
-/* Useful Classes */
-
-
-/* Spacing ( with Margin and Padding ) */
 
 /* Margin */
 
