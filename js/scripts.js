@@ -106,10 +106,10 @@
 		
         /* Typed.js */
         $(window).load(function(){
-        $(".typing").typed({strings: ["CS Student at Government Engineering College Bikaner.","I am Android Developer","I live in Bikaner.","I love Coding and Games."],    
+        $(".typing").typed({strings: ["I am", "CS Student at Govt. Eng. College Bikaner.","Intermediate Android Developer.","Live in Bikaner.","Love Coding and Games."],    
             /* You can change the home section typing text from
 	             here and do not use "&" use "and" */
-            typeSpeed: 45
+            typeSpeed: 50
           });
        });
         
