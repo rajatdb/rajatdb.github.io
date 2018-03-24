@@ -107,7 +107,7 @@
         /* Typed.js */
         $(window).load(function(){
         $(".typing").typed({
-			strings: ["I am", "CS Student at Govt. Eng. College Bikaner.","Intermediate Android Developer.","I am from Bikaner.","Love Coding and Games."],    
+			strings: ["CS Student at Govt. Eng. College Bikaner.","Intermediate Android Developer.","I am from Bikaner.","Love Coding and Games."],    
             /* You can change the home section typing text from
 	             here and do not use "&" use "and" */
             typeSpeed: 40,
